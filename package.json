@@ -1,6 +1,6 @@
 {
   "name": "sql-source-control",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Simple CLI for getting SQL into source control systems.",
   "keywords": [
     "sql",
@@ -25,6 +25,9 @@
     "url": "https://github.com/justinlettau/sql-source-control/issues"
   },
   "preferGlobal": true,
+  "publishConfig": {
+    "registry": "https://pkgs.dev.azure.com/encodo/_packaging/Quino/npm/registry/"
+  },
   "scripts": {
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down",
